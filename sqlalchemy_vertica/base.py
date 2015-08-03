@@ -26,7 +26,8 @@ class VerticaDialect(PyODBCConnector, PGDialect):
         'TIME': sqltypes.TIME,
         'TIME': sqltypes.TIME(timezone=True),
         'TIMESTAMP': sqltypes.TIMESTAMP,
-        'TIMESTAMP WITH TIMEZONE': sqltypes.TIMESTAMP(timezone=True),
+        'TIMESTAMP WITH TIME ZONE': sqltypes.TIMESTAMP(timezone=True),
+        'TIMESTAMPTZ': sqltypes.TIMESTAMP(timezone=True),
 
         # Not supported yet
         # INTERVAL
