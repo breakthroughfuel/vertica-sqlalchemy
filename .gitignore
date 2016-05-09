@@ -34,3 +34,8 @@ nosetests.xml
 .project
 .pydevproject
 .ropeproject
+
+# IntelliJ/IDEA metadata files.
+.idea/
+.idea.bak/
+*.iml
